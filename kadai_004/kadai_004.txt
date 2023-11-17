@@ -1,0 +1,26 @@
+
+Raizi@LAPTOP-7MS1EQ4J MINGW64 ~ (main)
+$ cd 'C:\Users\Raizi\git_challenge'
+
+Raizi@LAPTOP-7MS1EQ4J MINGW64 ~/git_challenge (main)
+$ git add 'hello_world.txt'
+
+Raizi@LAPTOP-7MS1EQ4J MINGW64 ~/git_challenge (main)
+$ git commit -m"hello_world.txtを追加"
+[main (root-commit) 3e545ab] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+Raizi@LAPTOP-7MS1EQ4J MINGW64 ~/git_challenge (main)
+$ git add 'hello_world.txt'
+
+Raizi@LAPTOP-7MS1EQ4J MINGW64 ~/git_challenge (main)
+$ git commit -m"日本語訳を追記"
+[main c3972af] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Raizi@LAPTOP-7MS1EQ4J MINGW64 ~/git_challenge (main)
+$ git log --oneline
+c3972af (HEAD -> main) 日本語訳を追記
+3e545ab hello_world.txtを追加
+
